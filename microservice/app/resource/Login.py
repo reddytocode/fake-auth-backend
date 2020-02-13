@@ -5,8 +5,7 @@ parser.add_argument('username', help='This field cannot be blank', required=True
 parser.add_argument('password', help='This field cannot be blank', required=True)
 
 
-class Login(Resource):s
-
+class Login(Resource):
     def post(self):
         data = parser.parse_args()
         # return UserModel.return_all()
