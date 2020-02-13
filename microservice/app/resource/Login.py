@@ -9,4 +9,4 @@ class Login(Resource):
     def post(self):
         data = parser.parse_args()
         # return UserModel.return_all()
-        return {"accessToken": "username-{}".format(data['id']), "refreshToken":"token goes here"}, 200
+        return {"accessToken": "username-{}".format(data['username']), "refreshToken":"token goes here"}, 200
