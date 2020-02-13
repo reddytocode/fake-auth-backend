@@ -1,0 +1,4 @@
+Flask==0.10.1
+
+flask_restful
+flask_jwt_extended
