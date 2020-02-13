@@ -17,6 +17,7 @@ def create_app():
 
 def init_api(app):
     from .resource.AllUsers import AllUsers
+    from .resource.Login import Login
 
     api = Api(app)
 
