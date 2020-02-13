@@ -30,4 +30,5 @@ def init_api(app):
     # api = swagger.docs(Api(app), apiVersion='0.1', api_spec_url='/doc')
 
     api.add_resource(AllUsers, '/users')
+    api.add_resource(Login, '/login')
 
