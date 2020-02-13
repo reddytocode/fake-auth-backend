@@ -37,4 +37,4 @@ def not_found500(error):
 
 if __name__ == '__main__':
     print("main")
-    app.run(port=5000, host='0.0.0.0', debug = True)
+    app.run(port=5010, host='0.0.0.0', debug = True)
