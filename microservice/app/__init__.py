@@ -22,9 +22,11 @@ def init_api(app):
     from .resource.AllUsers import AllUsers
     from .resource.Login import Login
     from .resource.ZonaPeligrosa import ZonaPeligrosa
+    from .resource.MultiPartEx import MultiPartEx
 
     api = Api(app)
     api.add_resource(AllUsers, '/users')
     api.add_resource(Login, '/login')
     api.add_resource(ZonaPeligrosa, '/prediccion')
+    api.add_resource(MultiPartEx, '/rafa')
 
