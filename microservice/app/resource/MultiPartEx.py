@@ -16,6 +16,6 @@ class MultiPartEx(Resource):
         audioFile = data['file']
         audioFile.save("your_file_name.jpg")
         # return UserModel.return_all()
-        return f"{data}"
+        return {"message": "Hola rafa :v"}
         return {"accessToken": "username-{}".format(data['username']), "refreshToken":"token goes here"}, 200
     
