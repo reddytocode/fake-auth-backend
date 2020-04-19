@@ -2,7 +2,7 @@ from flask_restful import Resource, reqparse
 import werkzeug
 import logging
 
-# from ..model.UserModel import UserModel
+# Este archivo es para recibir imagenes y archivos ademas de json
 parser = reqparse.RequestParser()
 parser.add_argument('username', help='This field cannot be blank', required=True)
 parser.add_argument('password', help='This field cannot be blank', required=True)
